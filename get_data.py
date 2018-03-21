@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 '''
-reads in train.csv, prints the shape and head
-uses requests library to download the first 10 images
+reads in train.csv
 script tests to see if image exists
+if image doesnt exisit, adds it to data_out dir
 '''
 import pandas as pd
 import sys, requests, shutil, os
