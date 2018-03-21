@@ -2,6 +2,7 @@
 '''
 reads in train.csv, prints the shape and head
 uses requests library to download the first 10 images
+add comments to lines 39 & 40 to run full script
 script tests to see if image exists
 '''
 import pandas as pd
@@ -10,6 +11,8 @@ import sys, requests, shutil, os
 data_dir = "../landmark_data/"
 data_in = "train.csv"
 df = pd.read_csv(os.path.join(data_dir, data_in))
+print("Shape: {}\n".format(df.shape))
+print(df.head())
 
 data_out = os.path.join(data_dir, "train_images/")
 if not os.path.exists(data_out):
@@ -33,5 +36,5 @@ for link in links:
     new_file_name = os.path.join(data_out, str(i)+'.jpg')
     os.rename(new_file, new_file_name)
     i += 1
-
-print("{} images processed!".format(i))
+    if i == 10:
+        break
