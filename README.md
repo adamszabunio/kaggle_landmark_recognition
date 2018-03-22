@@ -7,9 +7,9 @@
 
 - This Kaggle competiton uses over one million (1,225,029) training images of popular landmarks, such as the Colosseum in Rome, Italy: 
 
-<img height="240px" src="http://lh3.ggpht.com/-KXyELwqwp_Q/Ry-qmQAqwUI/AAAAAAAAAoU/SUt6osy86xk/s1600/" /><img height="240px"  src="http://lh3.ggpht.com/-GtgCG7ZNNDw/TWWRUVMMpUI/AAAAAAAAC00/AUNX8bd957w/s1600/" /><img height="240px" src="http://lh6.ggpht.com/-Xc0B_C_xpfc/RsIor9h8-SI/AAAAAAAABK0/d6gJYx06eKI/s1600/" /><img height="240px" src="https://lh3.googleusercontent.com/-r7w0c7chrC8/TKvJKIyP-yI/AAAAAAAAAbE/G1GYmt5t-bg/s1600/" />
+<img height="240px" src="http://lh3.ggpht.com/-KXyELwqwp_Q/Ry-qmQAqwUI/AAAAAAAAAoU/SUt6osy86xk/s1600/" /><img height="240px"  src="http://lh3.ggpht.com/-GtgCG7ZNNDw/TWWRUVMMpUI/AAAAAAAAC00/AUNX8bd957w/s1600/" /><img height="240px" src="http://lh6.ggpht.com/-Xc0B_C_xpfc/RsIor9h8-SI/AAAAAAAABK0/d6gJYx06eKI/s1600/" /><img height="240px" src="https://lh3.googleusercontent.com/-r7w0c7chrC8/TKvJKIyP-yI/AAAAAAAAAbE/G1GYmt5t-bg/s1600/" /><img height="240px" src='https://lh6.googleusercontent.com/-WWD-eozFRkU/THaxcSSu-BI/AAAAAAAANfQ/T4H7_pXuo0A/s1600/' />
 
-- From just these 4 images above, you can see how this will be a challenge to classify all of these images as "Colosseum"
+- From just these 5 images above, you can see how this will be a challenge to classify all of these images as "Colosseum"
 
 - However, an even larger challenge is the uneven distrbution of the Landmarks:
     + From [initial EDA](eda_training_data.ipynb) we found there are ≈15K unique Landmarks in our training set of 1.2 million images.
