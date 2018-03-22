@@ -3,6 +3,9 @@
 reads in train.csv
 script tests to see if image exists
 if image doesnt exisit, adds it to data_out dir
+reuseable for testing data, just need to change lines
+14 ---> `data_in`
+19 ---> `data_out`
 '''
 import pandas as pd
 import sys, requests, shutil, os
